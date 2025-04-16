@@ -1,0 +1,21 @@
+spring:
+ mail:
+   host: smtp.gmail.com
+   port: 587
+   username: lokhandeshreyash1@gmail.com
+   password: kenk frjo buvh zfth
+   properties:
+     mail:
+       smtp:
+         auth: true
+         starttls:
+           enable: true
+ datasource:
+   url: jdbc:mysql://localhost:3306/his
+   username: root
+   password: Shre@4348
+   driver-class-name: com.mysql.cj.jdbc.Driver
+ jpa:
+   show-sql: true
+   hibernate:
+     ddl-auto: update
